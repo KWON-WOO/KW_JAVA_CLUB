@@ -9,6 +9,9 @@ public class Students {
 		this.name = name;
 		this.result = result;
 	}
+	Students(String name) {
+		this.name = name;
+	}
 	public String print_name(){
 		return name;
 	}
